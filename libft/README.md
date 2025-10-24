@@ -36,15 +36,15 @@ and link it:
 
 gcc main.c -L. -lft
 
-💡 Lessons Learned
+##💡 Lessons Learned
 
-    Understanding how basic C functions work under the hood
+-Understanding how basic C functions work under the hood
 
-    Gaining confidence working with memory and debugging segmentation faults
+-Gaining confidence working with memory and debugging segmentation faults
 
-    Writing clean, modular, and reusable code
+-Writing clean, modular, and reusable code
 
-📁 Structure
+##📁 Structure
 
 libft/
 ├── ft_*.c
