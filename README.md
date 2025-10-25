@@ -9,12 +9,12 @@ All of them were written in C and built to strengthen low-level programming skil
 
 | Project | Description | Main Topics |
 |----------|--------------|--------------|
-| **Libft** | A custom implementation of essential C standard library functions. | Pointers, memory allocation, linked lists |
-| **get_next_line** | Reads a line from a file descriptor efficiently. | Static variables, buffers, I/O management |
-| **ft_printf** | Recreation of the standard `printf` function. | Variadic functions, string formatting |
-| **so_long** | A simple 2D game using the MiniLibX graphics library. | Event handling, basic game logic, graphics |
-| **push_swap** | Sorting algorithms challenge using two stacks and limited operations. | Algorithms, complexity, data structures |
-| **minitalk**  | A small communication program using Unix signals to transmit messages between processes. | Signals, process communication, bitwise operations |
+| **Libft**(./libft) | A custom implementation of essential C standard library functions. | Pointers, memory allocation, linked lists |
+| **get_next_line**(./get_next_line) | Reads a line from a file descriptor efficiently. | Static variables, buffers, I/O management |
+| **ft_printf**(./ft_printf) | Recreation of the standard `printf` function. | Variadic functions, string formatting |
+| **so_long**(./so_long) | A simple 2D game using the MiniLibX graphics library. | Event handling, basic game logic, graphics |
+| **push_swap**(./push_swap) | Sorting algorithms challenge using two stacks and limited operations. | Algorithms, complexity, data structures |
+| **minitalk**(./minitalk)  | A small communication program using Unix signals to transmit messages between processes. | Signals, process communication, bitwise operations |
 
 ---
 
