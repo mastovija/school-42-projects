@@ -3,6 +3,8 @@
 **Libft** is a custom implementation of some essential functions from the C standard library, written entirely from scratch.  
 This was the first major project at [42 Berlin](https://42berlin.de) and serves as a foundation for all later projects.
 
+This project was an essential first step into low-level programming, helping me understand what really happens behind higher-level abstractions.
+
 ---
 
 ## 🧠 Project Goals
@@ -21,6 +23,15 @@ This was the first major project at [42 Berlin](https://42berlin.de) and serves 
 - Header and static library creation  
 
 ---
+## 💡 Lessons Learned
+
+- Understanding how basic C functions work under the hood
+
+- Gaining confidence working with memory and debugging segmentation faults
+
+- Writing clean, modular, and reusable code
+
+---
 
 ## 🧰 Usage
 
@@ -35,21 +46,3 @@ Then include it in your own C programs:
 and link it:
 
 gcc main.c -L. -lft
-
-💡 Lessons Learned
-
-    Understanding how basic C functions work under the hood
-
-    Gaining confidence working with memory and debugging segmentation faults
-
-    Writing clean, modular, and reusable code
-
-📁 Structure
-
-libft/
-├── ft_*.c
-├── libft.h
-├── Makefile
-└── README.md
-
-This project was an essential first step into low-level programming, helping me understand what really happens behind higher-level abstractions.
