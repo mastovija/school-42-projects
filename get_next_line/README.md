@@ -18,29 +18,29 @@ After each call, the function remembers where it left off, allowing you to read 
 char *get_next_line(int fd);
 
 ```
-fd → File descriptor to read from.
+- fd → File descriptor to read from.
 
-Return value → The next line from the file, including the newline character (\n) if one is found. Returns NULL at end of file or on error.
+- Return value → The next line from the file, including the newline character (\n) if one is found. Returns NULL at end of file or on error.
 
 ---
 
 # 📁 Mandatory Files
 
-get_next_line.c — main function implementation
+- get_next_line.c — main function implementation
 
-get_next_line_utils.c — helper functions (string operations, buffer handling)
+- get_next_line_utils.c — helper functions (string operations, buffer handling)
 
-get_next_line.h — header file with prototypes and definitions
+- get_next_line.h — header file with prototypes and definitions
 
 ---
 
 # 🧩 Allowed Functions
 
-read()
+- read()
 
-malloc()
+- malloc()
 
-free()
+- free()
 
 ---
 
@@ -82,13 +82,13 @@ int main(void)
 
 # 🧠 What I Learned
 
-How file descriptors and the read() function work
+- How file descriptors and the read() function work
 
-Efficiently managing static variables to preserve state between calls
+- Efficiently managing static variables to preserve state between calls
 
-Handling dynamic memory and avoiding leaks
+- Handling dynamic memory and avoiding leaks
 
-Building modular, reusable C code
+- Building modular, reusable C code
 
 ---
 
